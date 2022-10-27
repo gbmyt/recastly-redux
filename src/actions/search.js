@@ -14,11 +14,3 @@ var handleVideoSearch = (q) => {
 };
 
 export default handleVideoSearch;
-
-
-// type: 'CHANGE_VIDEO_LIST',
-// videos: searchYouTube(q, (data) => {
-//   console.log(data);
-//   dispatch(changeVideoList(data));
-//   dispatch(changeVideo(data[0]));
-// });
