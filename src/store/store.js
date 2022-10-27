@@ -7,6 +7,7 @@ import exampleVideoData from '../data/exampleVideoData.js';
 const store = createStore(
   rootReducer,
   {
+    value: '',
     videoList: exampleVideoData,
     currentVideo: exampleVideoData[0]
   },
