@@ -19,11 +19,4 @@ var searchYouTube = ({key, query, max = 5}, callback) => {
     });
 };
 
-// import exampleVideoData from '../data/exampleVideoData.js';
-// var searchYouTube = (query, callback) => {
-//   var sampleData = exampleVideoData.slice(3);
-//   callback(sampleData);
-// };
-
 export default searchYouTube;
-// https://app-hrsei-api.herokuapp.com/api/recastly/videos

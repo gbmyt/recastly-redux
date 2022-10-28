@@ -1,5 +1,4 @@
 import React from 'react';
-import handleVideoSearch from '../actions/search.js';
 
 var Search = (props) => {
 
@@ -9,7 +8,7 @@ var Search = (props) => {
         className="form-control"
         type="text"
         value={props.value}
-        onChange={(e) => props.handleVideoSearch(e.target.value)}
+        onChange={(e) => props.handleSearchInputChange(e.target.value)}
       />
       <button className="btn hidden-sm-down">
         <span className="glyphicon glyphicon-search"></span>
